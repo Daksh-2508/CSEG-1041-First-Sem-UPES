@@ -21,7 +21,7 @@ int main() {
     scanf("%d %d",&num1, &num2);
 
     int i=1,j;
-    for (i; i<(num1 -1); i++) {
+    for (i; i<=num1; i++) {
         if (num1 % i == 0 && num2 % i == 0) {
             j=i;
         }
